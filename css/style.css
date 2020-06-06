@@ -1,0 +1,260 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+#navbar {
+display: flex;
+/* justify-content: center; */
+align-items: center;
+position: relative;
+height: ;
+
+}
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+    }
+    
+
+
+/* navbar: image or logo */
+.logo{
+    margin: 5px 26px;
+}
+.logo img{
+    margin: 6px 5px;
+    height: 42px;
+}
+
+
+/* navbar: list style */
+#navbar ul{
+    display: flex;
+    list-style: none;
+    }
+    
+#navbar ul li{
+    
+        
+    }
+#navbar ul li a{
+    padding: 7px 19px;
+    text-decoration: none;
+    font-size: 17px; 
+    color: white;
+    border-radius: 20px;
+   
+    }        
+#navbar ul li a:hover{
+       
+        color:black;
+        background-color: white;
+        }        
+
+
+        /* home section*/
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5%;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+    
+    
+    
+}
+#home::before {
+    background: url(../b5.jpg)
+    no-repeat center center/cover ;
+    content: "";
+    height: 415px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: 0.9;
+}
+#home h1 {
+    color: white;
+    padding: 10px;
+    font-size: 56px;
+}
+#home p {
+    color: white;
+    padding: 5px;
+    font-size: 17px;
+}
+.btn{
+    border-radius: 10px;
+    font-style: normal;
+    border-style: none;
+    padding: 5px 6px;
+    margin: 17px 10px;
+    border: 2px solid red;
+    color: white;
+    background-color: rgb(163, 88, 88);
+    font-size: 1.2rem;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: red;
+    font-size:1.3rem;
+    cursor: pointer;
+
+    
+    
+}
+
+/* css services */
+#services{
+    margin-top: 50px;
+    text-align: center;
+   padding-bottom: 30px;
+  
+}
+#services h1{
+  padding:8px 5px;
+    
+}
+#services-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+}
+.services{
+    text-align: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: rgba(223, 235, 233, 0.876);
+    margin: 12px 5px;
+    padding: 17px 29px;
+    border-radius: 22px;
+    width: 25%;
+}
+.services img{
+width: 125px;
+height: 97px;
+
+}
+
+.services h1{
+    margin: auto;
+}
+.services p{
+    margin: auto;
+}
+
+/* css cliets section */
+
+#clients{
+text-align: center;
+height: auto;
+position: relative;
+}
+#clients h1{
+/* color: black;
+font-size: 2.5rem;    */
+padding: 25px 30px;
+    }
+.clients{
+    margin: 0px 30px;
+    padding-bottom: 38px ;
+}
+#clients::before{
+    content: "";
+    background: url(../bg1.jpg) ;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+
+
+}
+
+.clients img{
+    width: auto;
+    height: 87px;
+    padding: 10px 6px;
+    
+}
+
+/* css contact us */
+#contact{
+    position: relative;
+}
+#contact h1{
+    padding: 27px;
+}
+#contact::before{
+    content: "";
+    background: url(../contact.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    opacity: 0.7;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+    
+}
+.contact form{
+    width: 40%;
+}
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+.contact label{
+    font-size: 1.3rem;
+}
+/* css footer */
+footer{
+
+}
+.foot{
+    color:white;
+    background-color: black;
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px 3px;
+
+}
+
+/* utility classes */
+.h-secondry{
+text-align: center;
+font-size: 2.4rem;
+color: black;
+}
+
+@media only screen and (max-width : 946px)
+{
+.clients img {
+        height: 46px;
+}
+}

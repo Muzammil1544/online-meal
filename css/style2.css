@@ -1,0 +1,62 @@
+/* navigation */
+#navbar{
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul li a {
+    padding: 7px 12px;
+    font-size: 13px;
+}
+/* home */
+#home{
+    height: 259px;
+}
+#home p {
+    font-size: 12px;
+}
+#home h1 {
+    
+    font-size: 23px;
+}
+/* survices */
+.services{
+    width: 300px;
+}
+.services h1{
+    font-size: 18px;
+}
+/* clients */
+.clients img {
+    height: 46px;
+}
+/* contack=t */
+.contact input, .contact textarea {
+  
+    font-size: 12px;
+}
+.contact label {
+    font-size: 1rem;
+}
+contact {
+   
+    padding-bottom: 18px;
+}
+.contact form {
+    width: 60%;
+}
+/* footer */
+.foot {
+    
+    padding: 5px 3px;
+}
+/* utility classes */
+.h-secondry {
+  
+    font-size: 1.8rem;
+   
+}
+.btn {
+    padding: 3px 5px;
+    margin: 8px 10px;
+    font-size: 15px;
+}
